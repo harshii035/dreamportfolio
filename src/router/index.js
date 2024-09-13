@@ -14,7 +14,7 @@ function createDynamicRoutes() {
 
   return [
     {
-      path: `/${home.slug}`,
+      path: `/`,
       name: `${home.slug}`,
       component: Home,
     },
