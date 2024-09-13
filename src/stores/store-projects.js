@@ -3,7 +3,7 @@ import { defineStore } from 'pinia';
 export const useProjectStore = defineStore('project', {
     state: () => ({
         component: 'Crafts',
-        slug: 'dreamportfolio/projects',
+        slug: 'projects',
         header: {
             title: 'Enchanting Crafts',
             subtitle: 'Step into my world of magical creations',
