@@ -3,7 +3,7 @@ import { defineStore } from 'pinia';
 export const useContactStore = defineStore('contact', {
     state: () => ({
         component: 'Owl',
-        slug: 'contact',
+        slug: '/dreamportfolio/contact',
         header: {
             title: 'Contact Me',
             subtitle: 'Reach out and let\'s weave magic together',
