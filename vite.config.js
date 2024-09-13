@@ -27,7 +27,7 @@ export default ({mode}) => {
       strictPort: true
     },
     build: {
-      outDir: 'public'
+      outDir: 'docs'
     }
   };
 
